@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  z-index: 999;
 }
 
 .logo {
@@ -22,6 +23,8 @@
 .list {
   position: relative;
   padding-bottom: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .list::before {

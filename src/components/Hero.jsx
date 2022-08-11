@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header/Header";
 import "./Hero.css";
+import hero_image from "../assets/hero_image.png";
+import hero_image_back from "../assets/hero_image_back.png";
 
 function Hero() {
   return (
@@ -46,7 +48,14 @@ function Hero() {
           <button className="btn">Learn More</button>
         </div>
       </div>
-      <div className="right-h">right</div>
+
+      <div className="right-h">
+        <buuton className="btn">Join Now</buuton>
+        <img src={hero_image} className="hero-image"></img>
+        <div className="border"></div>
+
+        <img src={hero_image_back} className="hero-image-back"></img>
+      </div>
     </div>
   );
 }

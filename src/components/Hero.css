@@ -3,19 +3,17 @@
   justify-content: space-between;
   background-color: var(--caloryCard);
   color: white;
+  height: 850px;
 }
 
 .left-h {
   padding: 2rem;
   padding-top: 1rem;
+  padding-left: 4rem;
   flex: 3;
   display: flex;
   gap: 2rem;
   flex-direction: column;
-}
-
-.right-h {
-  flex: 1;
 }
 
 .the-best-ad {
@@ -23,7 +21,7 @@
   background-color: #363d42;
   border-radius: 4rem;
   width: fit-content;
-  padding: 20px 13px;
+  padding: 25px 20px;
   text-transform: uppercase;
   /* color: white; */
   position: relative;
@@ -45,13 +43,25 @@
   border-radius: 3rem;
   z-index: 1;
 }
+.border {
+  border-left: 3px solid white;
+  height: 61rem;
+  margin-top: -6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -34rem;
+  z-index: -1;
+  width: 1rem;
 
+  transform: rotate(15deg);
+}
 .hero-text {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   text-transform: uppercase;
-  font-size: 4.5rem;
+  font-size: 5.5rem;
   font-weight: bold;
   /* color: white; */
   text-overflow: inherit;
@@ -75,7 +85,7 @@
 }
 
 .figures > div > span:nth-of-type(1) {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
@@ -96,8 +106,8 @@
 
 .hero-buttons > :nth-child(1) {
   background-color: var(--orange);
-  width: 8rem;
-  height: 3rem;
+  width: 9rem;
+  height: 3.25rem;
   color: white;
 }
 
@@ -114,4 +124,34 @@
 
 .hero-buttons > :nth-child(2):hover {
   color: var(--orange);
+}
+
+.right-h > .btn {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  color: black;
+}
+
+.right-h {
+  flex: 1;
+  position: relative;
+  background: linear-gradient(20deg, #d1512d, #f5c7a9);
+}
+
+.hero-image {
+  position: absolute;
+  top: 10rem;
+  right: 18rem;
+  width: 23rem;
+  z-index: 1;
+  width: 25rem;
+}
+
+.hero-image-back {
+  position: absolute;
+  top: 4rem;
+  right: 32rem;
+  width: 15rem;
+  /* z-index: -1; */
 }
