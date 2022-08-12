@@ -1,4 +1,4 @@
-export const programsData = [
+export const ProgramsData = [
   {
     image: (
       <svg

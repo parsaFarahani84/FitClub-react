@@ -3,6 +3,9 @@ import Header from "./Header/Header";
 import "./Hero.css";
 import hero_image from "../assets/hero_image.png";
 import hero_image_back from "../assets/hero_image_back.png";
+import { CgGym } from "react-icons/cg";
+import { GiStrongMan } from "react-icons/gi";
+import { FaMoneyBillWave } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -50,11 +53,31 @@ function Hero() {
       </div>
 
       <div className="right-h">
-        <buuton className="btn">Join Now</buuton>
+        <buuton className="btn join">Join Now</buuton>
         <img src={hero_image} className="hero-image"></img>
         <div className="border"></div>
 
         <img src={hero_image_back} className="hero-image-back"></img>
+        <div className="icons">
+          <span className="icon">
+            <CgGym />
+            <div>
+              <p>+Best Equipments</p>
+            </div>
+          </span>
+          <span className="icon left-min">
+            <GiStrongMan />
+            <div>
+              <p>+Best Coatches</p>
+            </div>
+          </span>
+          <span className="icon">
+            <FaMoneyBillWave />
+            <div>
+              <p>+Best Price</p>
+            </div>
+          </span>
+        </div>
       </div>
     </div>
   );

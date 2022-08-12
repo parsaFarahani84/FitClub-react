@@ -1,9 +1,9 @@
 .hero {
   display: flex;
   justify-content: space-between;
-  background-color: var(--caloryCard);
   color: white;
-  height: 850px;
+  height: 90vh;
+  border-bottom: 2px solid white;
 }
 
 .left-h {
@@ -45,7 +45,7 @@
 }
 .border {
   border-left: 3px solid white;
-  height: 61rem;
+  height: 60rem;
   margin-top: -6rem;
   display: flex;
   justify-content: center;
@@ -134,9 +134,14 @@
 }
 
 .right-h {
-  flex: 1;
+  flex: 1.5;
   position: relative;
-  background: linear-gradient(20deg, #d1512d, #f5c7a9);
+
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    var(--orange) 100%
+  );
 }
 
 .hero-image {
@@ -154,4 +159,34 @@
   right: 32rem;
   width: 15rem;
   /* z-index: -1; */
+}
+
+.join:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.icon {
+  font-size: 3.2rem;
+  color: #fff;
+}
+
+.icons {
+  position: absolute;
+  display: flex;
+  gap: 4rem;
+  top: 40rem;
+  right: 47rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-min {
+  margin-left: -0.6rem;
+}
+.icon p {
+  font-size: 1.2rem;
+  margin-top: -0.5rem;
+  font-weight: 500;
 }

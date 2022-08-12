@@ -1,0 +1,89 @@
+.Programs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+  margin-top: 4rem;
+  padding-bottom: 10rem;
+}
+
+.programs-header {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  align-items: center;
+}
+
+.program-category {
+  display: flex;
+  gap: 2rem;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  transition: all 0.3s;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  padding: 2.5rem;
+  gap: 1rem;
+  color: white;
+  justify-content: space-between;
+}
+.category > :nth-child(1) {
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+}
+
+.category > :nth-child(2) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.category > :nth-child(3) {
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+.join-now {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.join-now > img {
+  width: 1rem;
+}
+
+.category:hover {
+  background: var(--planCard);
+  cursor: pointer;
+}
+
+.join-now span {
+  border: 2px solid white;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  transition: all 0.3s;
+}
+
+.arrow-logo {
+  width: 1rem;
+}
+
+.join-now span:hover {
+  background-color: white;
+  color: orange;
+}
