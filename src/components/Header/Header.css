@@ -17,12 +17,9 @@
   cursor: pointer;
 }
 
-/* .header-menu > li:hover {
-  color: var(--orange);
-} */
 .list {
   position: relative;
-  padding-bottom: 0.3rem;
+  /* padding-bottom: -0.2rem; */
   font-size: 1.2rem;
   font-weight: 500;
 }

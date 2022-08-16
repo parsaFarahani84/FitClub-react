@@ -33,7 +33,7 @@
 }
 
 body {
-  background-color: var(--caloryCard);
+  background-color: var(--darkGrey);
 }
 
 * {
