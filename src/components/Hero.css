@@ -5,6 +5,9 @@
   height: 90vh;
   border-bottom: 2px solid white;
 }
+.absolute {
+  position: absolute;
+}
 
 .left-h {
   padding: 2rem;
@@ -94,10 +97,6 @@
   text-transform: uppercase;
 }
 
-.btn:hover {
-  cursor: pointer;
-}
-
 .hero-buttons {
   display: flex;
   gap: 1rem;
@@ -124,13 +123,6 @@
 
 .hero-buttons > :nth-child(2):hover {
   color: var(--orange);
-}
-
-.right-h > .btn {
-  position: absolute;
-  right: 3rem;
-  top: 2rem;
-  color: black;
 }
 
 .right-h {
@@ -160,10 +152,9 @@
   width: 15rem;
   /* z-index: -1; */
 }
-
-.join:hover {
-  background-color: #333;
-  color: #fff;
+.btn {
+  right: 3rem;
+  top: 2rem;
 }
 
 .icon {

@@ -6,6 +6,7 @@ import hero_image_back from "../assets/hero_image_back.png";
 import { CgGym } from "react-icons/cg";
 import { GiStrongMan } from "react-icons/gi";
 import { FaMoneyBillWave } from "react-icons/fa";
+import Button from "./UI/Button";
 
 function Hero() {
   return (
@@ -53,7 +54,7 @@ function Hero() {
       </div>
 
       <div className="right-h">
-        <buuton className="btn join">Join Now</buuton>
+        <Button className="btn absolute">Join Now</Button>
         <img src={hero_image} className="hero-image"></img>
         <div className="border"></div>
 

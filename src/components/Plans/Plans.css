@@ -18,7 +18,7 @@
   flex-direction: column;
   background-color: var(--caloryCard);
   color: white;
-  gap: 2rem;
+  gap: 1rem;
   padding: 1.5rem;
   /* width: 15rem; */
 }
@@ -45,16 +45,53 @@
 .features {
   display: flex;
   flex-direction: column;
-}
-
-.plan > svg {
-  fill: var(--orange);
-  width: 2rem;
-  height: 2rem;
+  /* gap: 1rem; */
 }
 
 .feature {
   display: flex;
   align-items: center;
   gap: 1rem;
+  padding: 1rem 1.5rem;
+}
+.plan > svg {
+  fill: var(--orange);
+  width: 2rem;
+  height: 2rem;
+}
+
+.feature > img {
+  width: 1rem;
+}
+
+.plans > :nth-child(2) > svg {
+  fill: white;
+}
+
+.plans > :nth-child(2) > button {
+  color: orange;
+}
+
+.see-more {
+  width: 9.7rem;
+
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 white;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.see-more:hover {
+  color: #333;
+  box-shadow: inset 200px 0 0 0 white;
+}
+
+.arrow {
+  margin-left: 0.3rem;
 }
