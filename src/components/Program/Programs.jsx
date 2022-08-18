@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Programs() {
   return (
-    <div className="Programs">
+    <div className="Programs" id="programs">
       <div className="programs-header">
         <span className="stroke-text">Explore our</span>
         <span>Programs</span>

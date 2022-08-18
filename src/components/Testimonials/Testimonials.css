@@ -1,7 +1,12 @@
-.Testimonials {
+.testimonials {
   display: flex;
   gap: 1rem;
-  padding: 0 2rem;
+  padding: 5rem 2rem;
+  width: 80%;
+  margin: 0 auto 5rem auto;
+  /* margin-bottom: 5rem; */
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
 }
 
 .left-t {
@@ -22,4 +27,67 @@
 .left-t > :nth-child(3) {
   font-weight: bold;
   font-size: 3rem;
+}
+
+.left-t > :nth-child(2) {
+  margin-bottom: -1.5rem;
+}
+
+.left-t > :nth-child(4) {
+  text-transform: none;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.right-t {
+  flex: 1;
+  position: relative;
+}
+
+.right-t > img {
+  position: absolute;
+  right: 12rem;
+  top: 2rem;
+  width: 20rem;
+  height: 22rem;
+  object-fit: cover;
+}
+
+.right-t > :nth-child(1) {
+  position: absolute;
+  width: 20rem;
+  border: 2px solid orange;
+  background-color: transparent;
+  top: 0.9rem;
+  right: 14rem;
+  height: 22rem;
+}
+
+.right-t > :nth-child(2) {
+  position: absolute;
+  width: 17rem;
+  height: 19rem;
+  top: 6rem;
+  right: 10rem;
+  background: var(--planCard);
+}
+
+.arrows {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: 0.1rem;
+  left: 5rem;
+}
+
+.arrows > .img {
+  font-size: 2rem;
+  cursor: pointer;
+  fill: white;
+  transition: all 0.3s;
+}
+
+.arrows > .img:hover {
+  fill: orange;
 }

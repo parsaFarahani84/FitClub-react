@@ -12,7 +12,7 @@ import ilu from "../../assets/i1.svg";
 
 function Reasons() {
   return (
-    <div className="Reasons" id="reasons">
+    <div className="Reasons" id="why">
       <div className="left-r">
         <div className="scale">
           <img src={image1} />

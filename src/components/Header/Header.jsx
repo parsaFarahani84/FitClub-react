@@ -8,11 +8,22 @@ function Header() {
       <img src={Logo} className="logo" />
 
       <ul className="header-menu">
-        <li className="list">Home</li>
-        <li className="list">Programs</li>
-        <li className="list">Why Us</li>
-        <li className="list">Plans</li>
-        <li className="list">Testimonials</li>
+        <a href="#home">
+          {" "}
+          <li className="list">Home</li>
+        </a>
+        <a href="#programs">
+          <li className="list">Programs</li>
+        </a>
+        <a href="#why">
+          <li className="list">Why Us</li>
+        </a>
+        <a href="#plan">
+          <li className="list">Plans</li>
+        </a>
+        <a href="#testimonials">
+          <li className="list">Testimonials</li>
+        </a>
       </ul>
     </div>
   );

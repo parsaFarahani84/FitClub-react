@@ -7,7 +7,7 @@ import { FiArrowRightCircle } from "react-icons/fi";
 
 function Plans() {
   return (
-    <div className="plans-container">
+    <div className="plans-container" id="plan">
       <div
         className="programs-header"
         style={{ gap: "2rem", marginBottom: "0.5rem" }}

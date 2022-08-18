@@ -41,3 +41,12 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
