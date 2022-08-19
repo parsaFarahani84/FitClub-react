@@ -52,6 +52,7 @@
   border: none;
   outline: none;
   color: var(--lightgrayz);
+  z-index: 1;
 }
 
 ::placeholder {

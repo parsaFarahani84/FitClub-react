@@ -181,3 +181,10 @@
   margin-top: -0.5rem;
   font-weight: 500;
 }
+
+.hero-blur {
+  width: 35rem;
+  height: 35rem;
+  left: 0;
+}
+

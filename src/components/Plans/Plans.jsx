@@ -8,6 +8,8 @@ import { FiArrowRightCircle } from "react-icons/fi";
 function Plans() {
   return (
     <div className="plans-container" id="plan">
+      <div className="blur plans-blur-1"></div>
+      <div className="blur plans-blur-2"></div>
       <div
         className="programs-header"
         style={{ gap: "2rem", marginBottom: "0.5rem" }}
@@ -35,7 +37,10 @@ function Plans() {
 
             <div className="rem">
               <span className="see-more">
-                See more benefits <FiArrowRightCircle className="arrow" />
+                <a href="#" className="p-a">
+                  {" "}
+                  See more benefits <FiArrowRightCircle className="arrow" />
+                </a>
               </span>
             </div>
             <Button>Join now</Button>

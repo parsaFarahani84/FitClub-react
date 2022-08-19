@@ -74,7 +74,7 @@
 
 .see-more {
   width: 9.7rem;
-
+  height: 2rem;
   display: flex;
   font-size: 1rem;
   align-items: center;
@@ -88,10 +88,29 @@
 }
 
 .see-more:hover {
-  color: #333;
-  box-shadow: inset 200px 0 0 0 white;
+  border-bottom: 1px solid white;
 }
 
 .arrow {
   margin-left: 0.3rem;
+}
+
+.p-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plans-blur-1 {
+  width: 32rem;
+  height: 23rem;
+  /* top: 6rem; */
+  left: 0rem;
+}
+
+.plans-blur-2 {
+  width: 32rem;
+  height: 23rem;
+  /* top: 10rem; */
+  right: 0rem;
 }

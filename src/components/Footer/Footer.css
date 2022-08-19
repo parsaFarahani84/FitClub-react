@@ -63,3 +63,21 @@
 .footer-l:hover {
   fill: #333;
 }
+
+.footer-1 {
+  bottom: 0;
+  right: 15%;
+  width: 26rem;
+  height: 18rem;
+  filter: blur(200px);
+  background: red;
+}
+
+.footer-2 {
+  bottom: 0;
+  left: 15%;
+  width: 26rem;
+  height: 18rem;
+  filter: blur(200px);
+  background: orange;
+}

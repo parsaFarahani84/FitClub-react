@@ -27,6 +27,8 @@ function Footer() {
         <img src={Logo} />
       </div>
       <img className="wave" src={wave} />
+      <div className="blur footer-1"></div>
+      <div className="blur footer-2"></div>
     </div>
   );
 }
