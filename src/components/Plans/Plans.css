@@ -114,3 +114,15 @@
   /* top: 10rem; */
   right: 0rem;
 }
+
+@media screen and (max-width: 768px) {
+  .plans-container {
+    margin-top: 20rem;
+  }
+  .plans {
+    flex-direction: column;
+  }
+  .plans > :nth-child(2) {
+    transform: none;
+  }
+}

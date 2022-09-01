@@ -132,3 +132,43 @@
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .Reasons {
+    flex-direction: column;
+    border-bottom: 3px solid white;
+  }
+  .left-r {
+    grid-auto-rows: auto;
+    overflow: hidden;
+  }
+
+  .left-r > :nth-child(1) {
+    width: 7rem;
+    height: 17rem;
+    margin-right: 2rem;
+  }
+
+  .left-r > :nth-child(2) {
+    width: 16rem;
+    height: 10rem;
+  }
+
+  .left-r > :nth-child(4) {
+    width: 7rem;
+    height: 5.6rem;
+  }
+
+  .left-r > :nth-child(3) {
+    width: 7rem;
+    height: 6rem;
+  }
+
+  .right-r {
+    flex-direction: column;
+  }
+
+  .ilu {
+    margin-top: 1rem;
+  }
+}

@@ -28,9 +28,10 @@ function Hero() {
             <span>ideal body</span>
           </div>
         </div>
-        <div>
+        <div className="large-text">
           <span>
-            In here we will help you to shape and build your ideal body
+            In here we will help you to shape and build your ideal body and live
+            up your life to fullest
           </span>
         </div>
 
